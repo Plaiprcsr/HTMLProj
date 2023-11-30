@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="changefont.css" />
+    <title>Add Book</title>
+    <style>
+        a.loginbut3 {
+            font-family: 'Prompt', sans-serif;
+            font-size: large;
+            color: white;
+            background-color: #252b78;
+            border-color: #252b78;
+            border-radius: 10px;
+            border-style: solid;
+            text-decoration: none;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+    </style>
+
+
+</head>
+
+<body style="font-family: 'Prompt Bold'; text-align: center;">
+    <div style="display: flex; flex-direction: row; justify-content: space-evenly; margin-top: 0.5rem; "></div>
+    <img src="images/logo.jpg" alt="MarsBook logo" style="height: 80px;">
+    </div>
+    <div>
+
+        <form action="/insertbo" method="POST">
+            <fieldset
+                style="border: 4px solid; border-radius: 40px; width: 650px; height: 460px; margin: auto; margin-top: 1.5rem; border-color: #15192b; color: #15192b;">
+                <p style="margin-bottom: 3rem">
+                    <label style="font-size: 30px; float: left; margin-left: 65px;">Book no.:</label>
+                    <input type="text" name="BookID" required
+                        style="border: 4px solid; border-radius: 10px; width: 360px; height: 40px; float: right; clear:right; margin-right: 10px; font-size: 25px;"><br>
+                </p>
+                <p style="margin-top: 2rem;">
+                    <label style="font-size: 30px; float: left; margin-left: 65px;">Title:</label>
+                    <input type="text" name="Title" required
+                        style="border: 4px solid; border-radius: 10px; width: 360px; height: 40px; float: right; clear:right; margin-right: 10px; font-size: 25px;"><br>
+                </p>
+                <p style="margin-top: 3rem;">
+                    <label style="font-size: 30px; float: left; clear: left; margin-left: 65px; ">Author:</label>
+                    <input type="text" name="Author" required
+                        style="border: 4px solid; border-radius: 10px; width: 360px; height: 40px; float: right; clear:right; margin-right: 10px; font-size: 25px;"><br>
+                </p>
+                <p style="margin-top: 3rem;">
+                    <label style="font-size: 30px; float: left; clear: left; margin-left: 10px">Publisher:</label>
+                    <input type="text" name="Publisher" required
+                        title="XXX-XXX-XXXX"
+                        style="border: 4px solid; border-radius: 10px; width: 360px; height: 40px; float: right; clear:right; margin-right: 10px; font-size: 25px;"><br>
+                </p>
+                <p style="margin-top: 2rem;">
+                    <label style="font-size: 30px; float: left; margin-left: 65px;">Type:</label>
+                    <input type="text" name="Type" required
+                        style="border: 4px solid; border-radius: 10px; width: 360px; height: 40px; float: right; clear:right; margin-right: 10px; font-size: 25px;"><br>
+                </p>
+                <p style="margin-top: 2rem;">
+                    <label style="font-size: 30px; float: left; margin-left: 65px;">Price:</label>
+                    <input type="text" name="Price" required
+                        style="border: 4px solid; border-radius: 10px; width: 360px; height: 40px; float: right; clear:right; margin-right: 10px; font-size: 25px;"><br>
+                </p>
+            </fieldset>
+            <p style="clear: both; text-align: center;">
+                <button type="submit">Confirm</button>
+            </p>
+        </form>
+    </div>
+
+</body>
+<footer
+    style="position: fixed; left: 0; bottom: 0; width: 100%; text-align: center; background-color: #15192b; color: white;">
+    ติดต่อสอบถาม<br>
+    LINE : @Mars.official | Tel: 022 - 058 - 999
+</footer>

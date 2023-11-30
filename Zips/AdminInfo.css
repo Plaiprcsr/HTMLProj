@@ -1,0 +1,12 @@
+table{
+    border-collapse: collapse;
+    font-size: 20px;
+}
+tr,th,td{
+    border: 4px solid #252b78;
+    text-align: center;
+    height: 39px;
+}
+.blankrow{
+    height: 100%;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="changefont.css" />
+    <title>Del Admin</title>
+    <style>
+        a.loginbut3 {
+            font-family: 'Prompt', sans-serif;
+            font-size: large;
+            color: white;
+            background-color: #252b78;
+            border-color: #252b78;
+            border-radius: 10px;
+            border-style: solid;
+            text-decoration: none;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+    </style>
+
+
+</head>
+
+<body style="font-family: 'Prompt Bold'; text-align: center;">
+    <div style="display: flex; flex-direction: row; justify-content: space-evenly; margin-top: 0.5rem; "></div>
+    <img src="images/logo.jpg" alt="MarsBook logo" style="height: 80px;">
+    </div>
+    <div>
+
+        <form action="/updatebo" method="POST">
+            <fieldset
+                style="border: 4px solid; border-radius: 40px; width: 650px; height: 500px; margin: auto; margin-top: 1.5rem; border-color: #15192b; color: #15192b;">
+                <p style="margin-bottom: 3rem">
+                    <label style="font-size: 20px; float: left; margin-left: 65px;">Target Book's ID:</label>
+                    <input type="text" name="OldboID" required
+                        style="border: 4px solid; border-radius: 10px; width: 360px; height: 40px; float: right; clear:right; margin-right: 10px; font-size: 25px;"><br>
+                </p>
+
+                <p style="margin-bottom: 3rem">
+                    <label style="font-size: 20px; float: left; margin-left: 65px;">New Title:</label>
+                    <input type="text" name="NewTitle" required
+                        style="border: 4px solid; border-radius: 10px; width: 360px; height: 40px; float: right; clear:right; margin-right: 10px; font-size: 25px;"><br>
+                </p>
+                <p style="margin-bottom: 3rem">
+                    <label style="font-size: 20px; float: left; margin-left: 65px;">New Author:</label>
+                    <input type="text" name="NewAuth" required
+                        style="border: 4px solid; border-radius: 10px; width: 360px; height: 40px; float: right; clear:right; margin-right: 10px; font-size: 25px;"><br>
+                </p>
+                <p style="margin-bottom: 3rem">
+                    <label style="font-size: 20px; float: left; margin-left: 65px;">New Publisher:</label>
+                    <input type="text" name="NewPubl" required
+                        style="border: 4px solid; border-radius: 10px; width: 360px; height: 40px; float: right; clear:right; margin-right: 10px; font-size: 25px;"><br>
+                </p>
+                <p style="margin-bottom: 3rem">
+                    <label style="font-size: 20px; float: left; margin-left: 65px;">New Type:</label>
+                    <input type="text" name="NewType" required
+                        style="border: 4px solid; border-radius: 10px; width: 360px; height: 40px; float: right; clear:right; margin-right: 10px; font-size: 25px;"><br>
+                </p>
+                <p style="margin-bottom: 3rem">
+                    <label style="font-size: 20px; float: left; margin-left: 65px;">New Price:</label>
+                    <input type="text" name="NewPrice" required
+                        style="border: 4px solid; border-radius: 10px; width: 360px; height: 40px; float: right; clear:right; margin-right: 10px; font-size: 25px;"><br>
+                </p>
+                <p style="margin-bottom: 3rem">
+                    <label style="font-size: 20px; float: left; margin-left: 65px;">New Img:</label>
+                    <input type="text" name="NewImg" required
+                        style="border: 4px solid; border-radius: 10px; width: 360px; height: 40px; float: right; clear:right; margin-right: 10px; font-size: 25px;"><br>
+                </p>
+                    
+            </fieldset>
+            <p style="clear: both; text-align: center; margin-top: 20px;">
+                <button type="submit">Confirm</button>
+            </p>
+        </form>
+    </div>
+
+</body>
+<footer
+    style="position: fixed; left: 0; bottom: 0; width: 100%; text-align: center; background-color: #15192b; color: white;">
+    ติดต่อสอบถาม<br>
+    LINE : @Mars.official | Tel: 022 - 058 - 999
+</footer>

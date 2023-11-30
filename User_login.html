@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="UsAdSi.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        header {
+            font-family: 'Prompt', sans-serif;
+        }
+
+        body {
+            margin: 0px;
+            font-family: 'Prompt', sans-serif;
+        }
+
+        #footer {
+            font-family: 'Prompt', sans-serif;
+            font-size: small;
+        }        
+
+        /*button*/a.loginbut {
+            font-family: 'Prompt', sans-serif;
+            font-size: small;
+            color: white;
+            background-color: #252b78;
+            border-radius: 10px;
+            border-style: solid;
+            text-decoration: none;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        input {
+            border-radius: 5px;
+            border-style: solid;
+            border-width: 2.5px;
+            border-color: black;
+
+            float: right;
+        }
+    </style>
+
+    <title>MarsBook - User login</title>
+</head>
+
+
+<header>
+    <div>
+        <img src="images/logo.jpg" alt="MarsBook logo" style="height: 80px;">
+    </div>
+</header>
+
+
+<body>
+    <form>
+        <fieldset class="loginfs">
+            <legend class="loginle">
+                <h1>Login</h1>
+            </legend>
+            <h3 id="h3">Email: <input type="email" required title="Please full out your Email"></h3>
+            <h3 id="h3">Password: <input type="password" required title="Please full out your password"></h3>
+            <a href="HomePage.html" class="loginbut">Sign in</a>
+            Or
+            <a href="Sign_Up.html" class="loginbut">Sign Up</a>
+        </fieldset>
+    </form>
+    <br>
+    <a href="Admin_login.html" class="loginbut" style="text-align:center; margin-left:45%">Admin Login</a>
+</body>
+
+
+<footer id="footer">
+    <p>ติดต่อสอบถาม<br>
+        LINE : @Mars.official | Tel: 022 - 058 - 999
+    </p>
+</footer>
+
+</html>
